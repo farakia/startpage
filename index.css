@@ -1,0 +1,115 @@
+@font-face {
+	font-family: 'haxr';
+	src: url('resources/haxrcorpttf.ttf');
+}
+
+html {
+	background: url('resources/bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+body {
+	font-family: 'haxr';
+	font-size: 16px;
+}
+
+.general {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 70px;
+	border-left: solid #FFD6F3 10px;
+	transition: .2s;
+}
+
+	.general:hover {
+		border-left: solid #FFD6F3 20px;
+}
+
+.chan {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 70px;
+	border-left: solid #FFD6F3 10px;
+	transition: .2s;
+}
+
+	.chan:hover {
+		border-left: solid #FFD6F3 20px;
+}
+
+.title {
+	color: #FFF;
+	text-align: center;
+	padding-top: 22px;
+	margin: auto;
+	width: 90px;
+}
+
+.sub {
+	padding-left: 12px;
+	padding-top: 0px;
+	color: #848484;
+}
+
+a {
+	padding-left: 16px;
+	text-decoration: none;
+	color: #F8E0F7;
+	transition: .2s;
+	outline: 0;
+}
+
+.alink {
+	color: #000;
+}
+
+	a:hover {
+		color: #848484;
+}
+
+.google {
+	width: 410px;
+	border: 0px; border-left: solid #FFD6F3 10px;
+	margin: 0 auto;
+	display: block;
+	height: 35px;
+	font-family: 'haxr'; font-size: 16px;
+	padding-left: 14px;
+	transition: .2s;
+}
+
+	.google:hover,.google:focus {
+		border-left: solid #FFD6F3 20px;
+}
+
+.youtube {
+	width: 410px;
+	border: 0px; border-left: solid #FFD6F3 10px;
+	margin: 0 auto;
+	display: block;
+	height: 35px;
+	font-family: 'haxr'; font-size: 16px;
+	padding-left: 14px;
+	transition: .2s;
+}
+
+	.youtube:hover,.youtube:focus {
+		border-left: solid #FFD6F3 20px;
+		
+}
+.circle {
+	border-radius: 50px 50px;
+	background-color: #FFF;
+	width: 100px;
+	height: 100px;
+	transition: .2s;
+}
+
+.circle:hover {
+	background: #000;
+}
+
